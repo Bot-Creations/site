@@ -1,0 +1,57 @@
+:root {
+  --not-quite-black: #23272a;
+  --link-color: #61dafb;
+  --muted-color: #6c757d;
+  --muted-color-alt: #8f979e;
+  --blurple: #7289da;
+}
+
+.text-blurple {
+  color: var(--blurple) !important;
+}
+
+.bg-blurple {
+  background-color: var(--blurple) !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.abts-site {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;
+  justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: var(--link-color) !important;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+  color: var(--link-color) !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.heading {
+  font-weight: bold;
+}
